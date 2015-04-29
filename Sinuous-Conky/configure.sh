@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # These are the packages that are required for this Conky configuration
-declare -a packages=("conky" "lm-sensors");
+declare -a packages=("conky-all" "lm-sensors");
 
 ## Iterate through each package and check if it is installed
 for i in "${packages[@]}"; do
@@ -78,9 +78,11 @@ if [ $(dpkg-query -W -f='${Status}' ${packages[1]} 2>/dev/null | grep -c "ok ins
                 echo "$i";
             fi
         done
-        FONT_INSTALLED=$(fc-list | grep -i "roboto");
-        if [ -z "$FONT_INSTALLED" ]; then
-                echo "Roboto font";
-        fi
         echo "Please try installing these dependencies using 'apt-get install <dependency>' or rerun this script.";
 fi
+
+
+
+
+
+
