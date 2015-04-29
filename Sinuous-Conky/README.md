@@ -41,7 +41,7 @@ wget -O .lua.lua https://raw.githubusercontent.com/JohnPersano/Conky-Collection/
 ####Dependencies
 Sinuous Conky depends on the 'conky' and 'lm-sensors' packages, you can install these packages by executing the following commands in a Terminal.
 ```
-sudo apt-get install conky
+sudo apt-get install conky-all
 sudo apt-get install lm-sensors
 ```
 
