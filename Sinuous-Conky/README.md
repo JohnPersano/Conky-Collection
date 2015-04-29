@@ -14,21 +14,19 @@ Automated installation
 ======================
 **If you already have a Conky setup, backup any existing .conkyrc and .lua files before running this script.**
 
-A simple [install script](https://github.com/JohnPersano/Conky-Collection/blob/master/Sinuous-Conky/configure.sh) has been included with this Conky configuration. To use the script, execute the following commands in a terminal:
+A simple [install script](https://github.com/JohnPersano/Conky-Collection/blob/master/Sinuous-Conky/configure.sh) has been included with this Conky configuration. To use the script, execute the following command in a Terminal:
 
 ```
-wget -O configure.sh  https://raw.githubusercontent.com/JohnPersano/Conky-Collection/master/Sinuous-Conky/configure.sh
-chmod +x configure.sh
-./configure.sh
+wget -O configure.sh  https://raw.githubusercontent.com/JohnPersano/Conky-Collection/master/Sinuous-Conky/configure.sh && chmod +x configure.sh &&./configure.sh
 ```
+**Note: You should never run a script like this without inspecting the script's code for malicious content.**
 
-The above commads will download and run a script that will install Sinuous Conky and satisfy every dependency necessary to run it. Once the script has sucessfully completed and Sinuous Conky is up and running, feel free to remove the installation script by executing the following command in a terminal:
+The above commads will download and run a script that will install Sinuous Conky and satisfy every dependency necessary to run it. Once the script has sucessfully completed and Sinuous Conky is up and running, feel free to remove the installation script by executing the following command in a Terminal:
 
 ```
 rm ./configure.sh
 ```
 
-**Note: You should never run a script like this without inspecting the script's code for malicious content.**
 
 Manual installation
 ===================
